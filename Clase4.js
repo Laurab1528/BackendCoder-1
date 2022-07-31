@@ -140,10 +140,10 @@ const Sony = {
 
 const archivo = new contenedor ("archivo.json");
 
-//archivo.save(samsung);
-//archivo.save(LG);
-//archivo.save(Sony);
-//archivo.deleteAll();
-//archivo.AllData();
-//archivo.deleteById(3);
+archivo.save(samsung);
+archivo.save(LG);
+archivo.save(Sony);
+archivo.deleteAll();
+archivo.AllData();
+archivo.deleteById(3);
 archivo.getById(1);
